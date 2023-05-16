@@ -13,6 +13,19 @@
   color-scheme: dark;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+
 .card {
   font-size: 3.25rem;
   opacity: 0.93;
